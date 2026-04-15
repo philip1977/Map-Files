@@ -155,6 +155,44 @@
         <styleUrl>#poly-9C27B0-1200-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-A52714-1200-153-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>991427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-A52714-1200-153-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>991427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-A52714-1200-153-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-A52714-1200-153-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-A52714-1200-153-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="poly-EDA29B-1200-138-nodesc-normal">
       <LineStyle>
         <color>ff9ba2ed</color>
@@ -191,6 +229,44 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#poly-EDA29B-1200-138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F57C00-1200-125-nodesc-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7d007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-F57C00-1200-125-nodesc-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7d007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-1200-125-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-1200-125-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-1200-125-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-F57C00-1200-77-nodesc-normal">
@@ -592,6 +668,106 @@
                 55.2121778,25.1727548,0
                 55.209002,25.1675502,0
                 55.2047122,25.1618326,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>DIFC Business Bay</name>
+      <Placemark>
+        <name>DIFC</name>
+        <styleUrl>#poly-F57C00-1200-125-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                55.2504347,25.1802834,0
+                55.2672575,25.168554,0
+                55.2758406,25.1777201,0
+                55.2784155,25.1792736,0
+                55.2844236,25.1826136,0
+                55.2867411,25.1850214,0
+                55.2924059,25.1910797,0
+                55.2919767,25.1924,0
+                55.2895735,25.1945747,0
+                55.2732657,25.2028069,0
+                55.2716349,25.2025739,0
+                55.2688883,25.2009431,0
+                55.2661417,25.1974482,0
+                55.2504347,25.1802834,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Airport</name>
+      <Placemark>
+        <name>Airport</name>
+        <styleUrl>#poly-A52714-1200-153-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                55.2952718,25.2753651,0
+                55.2957868,25.2711739,0
+                55.2924394,25.2683797,0
+                55.2923536,25.2665168,0
+                55.293126,25.2651197,0
+                55.2980184,25.2671378,0
+                55.3038549,25.2673706,0
+                55.3088331,25.2652749,0
+                55.3201627,25.2573574,0
+                55.3235959,25.2547957,0
+                55.3206777,25.2542523,0
+                55.3269433,25.2499051,0
+                55.3295182,25.2478867,0
+                55.3314065,25.2453249,0
+                55.3326082,25.2444709,0
+                55.3320073,25.2426077,0
+                55.3388738,25.234611,0
+                55.346856,25.2288656,0
+                55.3484868,25.2262256,0
+                55.3490876,25.2231974,0
+                55.3491735,25.2190821,0
+                55.348401,25.2172961,0
+                55.3505468,25.2148889,0
+                55.3510618,25.212404,0
+                55.3503751,25.2086766,0
+                55.3503751,25.2073564,0
+                55.3471994,25.2103073,0
+                55.3447961,25.210385,0
+                55.3429937,25.2091425,0
+                55.342307,25.2078223,0
+                55.3404187,25.2045607,0
+                55.3412771,25.2019203,0
+                55.3430795,25.2002117,0
+                55.3441095,25.2002117,0
+                55.3476285,25.2037065,0
+                55.3496026,25.2066575,0
+                55.3543233,25.2040171,0
+                55.3613614,25.2009883,0
+                55.3694295,25.2030075,0
+                55.3758668,25.2025416,0
+                55.3760385,25.2040948,0
+                55.3917455,25.1999787,0
+                55.3956937,25.1986585,0
+                55.4028177,25.2130252,0
+                55.4046201,25.2194703,0
+                55.403676,25.2299526,0
+                55.4030751,25.2395022,0
+                55.4052209,25.252234,0
+                55.3825616,25.2646539,0
+                55.3560399,25.2804875,0
+                55.3360414,25.2981038,0
+                55.333724,25.2995782,0
+                55.3062581,25.2813412,0
+                55.2952718,25.2753651,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
